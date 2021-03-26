@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "bleTest",
+    "name": "BlueTooth Test",
     "slug": "bleTest",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,9 +17,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.slingshot.bletest",
+      "buildNumber": "0.1.0"
     },
     "android": {
+      "package": "com.slingshot.bletest",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
